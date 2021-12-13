@@ -1,0 +1,13 @@
+name = "Pkgx"
+uuid = "b6d27119-bd23-4ba3-b008-6c28d5cac8dc"
+authors = ["Thomas A. Christensen II <25492070+MillironX@users.noreply.github.com> and contributors"]
+version = "0.1.0"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[compat]
+julia = "1.6"
+
+[targets]
+test = ["Test"]
