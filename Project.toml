@@ -3,11 +3,16 @@ uuid = "b6d27119-bd23-4ba3-b008-6c28d5cac8dc"
 authors = ["Thomas A. Christensen II <25492070+MillironX@users.noreply.github.com> and contributors"]
 version = "0.1.0"
 
-[extras]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+[deps]
+FilePaths = "8fc22ac5-c921-52a6-82fd-178b2807b824"
+FilePathsBase = "48062228-2e41-5def-b9a4-89aafe57970f"
+TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
 
 [compat]
 julia = "1.6"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]
 test = ["Test"]
